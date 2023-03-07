@@ -10,7 +10,16 @@ async function main() {
   console.log("Dex contract deployed: ", dex.address);
 }
 
+
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
+
+// async function bb() {
+//   const bb= await hre.ethers.provider.getBlockNumber()
+//   // const bb = await provider._getBlock()
+//   console.log(bb)
+// }
+// bb()
