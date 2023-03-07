@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+based in a jspruance tutorial https://github.com/jspruance/
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Flash loan contract deployed: 0xD025b558bB0dfd5c73acaE0fc94f198387B93D12
+Flash loan Arbitrage contract deployed:  0x404e014f659646F03AEABdf652d20ac0377749D5
 
-Try running some of the following tasks:
+Dex contract deployed: 0xD31e6D8f5916df6620C99A5e1436f6D602E3501a
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
