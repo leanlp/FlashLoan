@@ -21,11 +21,11 @@ contract FlashLoanArbitrage is FlashLoanSimpleReceiverBase {
 
     // Aave ERC20 Token addresses on Goerli network
     address private immutable daiAddress =
-        0xDF1742fE5b0bFc12331D8EAec6b478DfDbD31464;
+        0xBa8DCeD3512925e52FE67b1b5329187589072A55;
     address private immutable usdcAddress =
-        0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43;
+        0x65aFADD39029741B3b8f0756952C74678c9cEC93;
     address private dexContractAddress =
-        0xD31e6D8f5916df6620C99A5e1436f6D602E3501a;
+        0x0DDeac3776aF300aCD681863DeA74f63d1B1b934;
 
     IERC20 private dai;
     IERC20 private usdc;
