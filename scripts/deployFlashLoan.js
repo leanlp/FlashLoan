@@ -19,8 +19,7 @@ async function main() {
   console.log("deploying...");
   const flashLoanFactory = await hre.ethers.getContractFactory("FlashLoan");
   const flashLoan = await flashLoanFactory.deploy(   
-    // "0xc4dCB5126a3AfEd129BC3668Ea19285A9f56D15D"
-    "0xC911B590248d127aD18546B186cC6B324e99F02c"
+    "0x0496275d34753A48320CA58103d5220d394FF77F" //pool address provider
   );
 console.log("step")
 console.log(flashLoan)

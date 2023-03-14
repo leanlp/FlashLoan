@@ -6,7 +6,9 @@ async function main() {
     "FlashLoanArbitrage"
   );
   const flashLoanArbitrage = await FlashLoanArbitrage.deploy(
-    "0xC911B590248d127aD18546B186cC6B324e99F02c" // this address is a flashloan contract
+   
+    "0x0496275d34753A48320CA58103d5220d394FF77F", //addressProvider
+     
   );
 
   await flashLoanArbitrage.deployed();
